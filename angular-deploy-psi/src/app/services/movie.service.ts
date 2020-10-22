@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class MovieService {
 
-  apiURL: string ='http://localhost:8000/api/';
+  apiURL: string ='http://delfino.ejcm.com.br/api/tag';
 
     constructor( public http:HttpClient ) {}
 
